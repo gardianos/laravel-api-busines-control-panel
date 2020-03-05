@@ -14,7 +14,7 @@ Busines Control Panel is a web application with ResFul Api created in Laravel. B
 - K-POS
 
 
-BCP is createn in Laravel 5.2 version.
+BCP is created in Laravel 5.4 version.
 
 ## K-Inventory
 
