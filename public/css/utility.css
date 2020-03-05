@@ -1,0 +1,182 @@
+/*
+B - Box shadow
+*/
+.box-shadow-grey{
+    box-shadow: 10px 7px 1px #888888;
+}
+/*
+B - background colors
+*/
+
+/*
+B - box borders
+*/
+.box-border-left{
+    border-left: 25px solid blue;
+    border-top: 0.1px solid rgba(0, 0, 0, 0.1);
+    border-bottom:0.1px solid rgba(0, 0, 0, 0.1);
+    border-right:0.1px solid rgba(0, 0, 0, 0.1);
+    padding:10px;
+}
+.box-border-right{
+    border-right: 25px solid blue;
+    border-top: 0.1px solid rgba(0, 0, 0, 0.1);
+    border-bottom:0.1px solid rgba(0, 0, 0, 0.1);
+    border-left:0.1px solid rgba(0, 0, 0, 0.1);
+    padding:10px;
+}
+.box-border-bottom{
+    border-bottom: 25px solid blue;
+    border-top: 0.1px solid rgba(0, 0, 0, 0.1);
+    border-right:0.1px solid rgba(0, 0, 0, 0.1);
+    border-left:0.1px solid rgba(0, 0, 0, 0.1);
+    padding:10px;
+}
+.box-border-top{
+    border-top: 25px solid blue;
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.1);
+    border-right:0.1px solid rgba(0, 0, 0, 0.1);
+    border-left:0.1px solid rgba(0, 0, 0, 0.1);
+    padding:10px;
+}
+
+.box-border-top-warning{
+    border-top: 25px solid red;
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.1);
+    border-right:0.1px solid rgba(0, 0, 0, 0.1);
+    border-left:0.1px solid rgba(0, 0, 0, 0.1);
+    padding:10px;
+}
+.bkg-red{
+    background-color:red;
+}
+/*
+E - Extra padding 
+*/
+.extra-padding-10{
+    padding:10px;
+}
+.extra-padding-15{
+    padding:15px;
+}
+.extra-padding-20{
+    padding:20px;
+}
+.extra-padding-25{
+    padding:25px;
+}
+.extra-padding-30{
+    padding:30px;
+}
+.extra-padding-35{
+    padding:35px;
+}
+.extra-padding-50{
+    padding:50px;
+}
+/*
+F - Full height
+*/
+.full-height{
+    height: 100vh;
+}
+/*
+F - fixed button
+*/
+.fixed-button-200{
+    height:auto;
+    width:200px;
+}
+/*
+N - No margin/padding
+*/
+.no-margin-padding{
+    margin:0;
+    padding:0;
+}
+/*
+N - No style button
+*/
+.no-style-button{
+    background-color: none;
+}
+/*
+O - overflow-y/x
+*/
+.overflow-y-scroll{
+    height:350px;
+    overflow-y: scroll;
+}
+
+.overflow-y-scroll-250{
+    height:250px;
+    overflow-y: scroll;
+}
+
+.overflow-y-scroll-500{
+    height:500px;
+    overflow-y: scroll;
+}
+.overflow-y-scroll-760{
+    height:760px;
+    overflow-y: scroll;
+}
+/*
+T - title fancy
+*/
+.title-fancy{
+    border-right: 25px solid blue;
+    border-top: 0.1px solid rgba(0, 0, 0, 0.1);
+    border-bottom:0.1px solid rgba(0, 0, 0, 0.1);
+    border-left:0.1px solid rgba(0, 0, 0, 0.1);
+    padding:10px;
+}
+
+/**********************************
+*
+*   BOOTSTRAP MODIFICATIONS 
+*
+***********************************/
+
+.nav-tabs {
+    border-bottom: none;
+  }
+  
+  .nav-tabs .nav-item {
+    margin-bottom: -1px;
+  }
+  
+  .nav-tabs .nav-link {
+    border: none;
+  }
+  
+  .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: #e9ecef #e9ecef #dee2e6;
+  }
+  
+  .nav-tabs .nav-link.disabled {
+    color: #6c757d;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  
+  .nav-tabs .nav-link.active,
+  .nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+  }
+  
+  .nav-tabs .dropdown-menu {
+    margin-top: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  /*
+  test 
+  */
+  .test{
+      height: 350px;
+      overflow-y: scroll;
+  }
